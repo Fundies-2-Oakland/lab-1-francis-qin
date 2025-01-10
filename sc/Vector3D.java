@@ -3,7 +3,10 @@ package sc;
 public class Vector3D {
 
     public static void main(String[] args) {
-
+        Vector3D newVector = new Vector3D(3, 4, 5);
+        System.out.println(newVector.getX());
+        System.out.println(newVector.getY());
+        System.out.println(newVector.getZ());
     }
 
     private double x;
@@ -25,8 +28,10 @@ public class Vector3D {
     public double getY() {
         return y;
     }
-    
+
     public double getZ() {
         return z;
     }
+
+    //Q3
 }
